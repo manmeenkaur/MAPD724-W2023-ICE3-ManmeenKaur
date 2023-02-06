@@ -76,6 +76,7 @@
 		A36E45CD2990970600126E21 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E458F2990970600126E21 /* GameProtocol.swift */; };
 		A36E45CE2990970600126E21 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E45902990970600126E21 /* GameObject.swift */; };
 		A36E45CF2990970600126E21 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E45912990970600126E21 /* Layer.swift */; };
+		A36E45D229909B3F00126E21 /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E45D129909B3F00126E21 /* CollisionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		A36E458F2990970600126E21 /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		A36E45902990970600126E21 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		A36E45912990970600126E21 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		A36E45D129909B3F00126E21 /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		A36E450D29908BE200126E21 /* MAPD724-W2023-ICE3-ManmeenKaur */ = {
 			isa = PBXGroup;
 			children = (
+				A36E45D029909B2500126E21 /* Managers */,
 				A36E45522990970600126E21 /* Assets */,
 				A36E458E2990970600126E21 /* Core */,
 				A36E454D2990970600126E21 /* GameObjects */,
@@ -309,6 +312,14 @@
 				A36E45912990970600126E21 /* Layer.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A36E45D029909B2500126E21 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A36E45D129909B3F00126E21 /* CollisionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +452,7 @@
 				A36E45932990970600126E21 /* Cloud.swift in Sources */,
 				A36E45CD2990970600126E21 /* GameProtocol.swift in Sources */,
 				A36E45CE2990970600126E21 /* GameObject.swift in Sources */,
+				A36E45D229909B3F00126E21 /* CollisionManager.swift in Sources */,
 				A36E451529908BE200126E21 /* GameScene.swift in Sources */,
 				A36E451729908BE200126E21 /* GameViewController.swift in Sources */,
 				A36E45922990970600126E21 /* Island.swift in Sources */,
