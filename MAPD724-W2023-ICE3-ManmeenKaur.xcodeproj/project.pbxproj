@@ -80,6 +80,7 @@
 		A36E45D62990B17E00126E21 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A36E45D32990B17E00126E21 /* thunder.mp3 */; };
 		A36E45D72990B17E00126E21 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A36E45D42990B17E00126E21 /* yay.mp3 */; };
 		A36E45D82990B17E00126E21 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A36E45D52990B17E00126E21 /* engine.mp3 */; };
+		A36E45DA2990B51E00126E21 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E45D92990B51E00126E21 /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +158,7 @@
 		A36E45D32990B17E00126E21 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		A36E45D42990B17E00126E21 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		A36E45D52990B17E00126E21 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		A36E45D92990B51E00126E21 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				A36E45D129909B3F00126E21 /* CollisionManager.swift */,
+				A36E45D92990B51E00126E21 /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36E45DA2990B51E00126E21 /* ScoreManager.swift in Sources */,
 				A36E45932990970600126E21 /* Cloud.swift in Sources */,
 				A36E45CD2990970600126E21 /* GameProtocol.swift in Sources */,
 				A36E45CE2990970600126E21 /* GameObject.swift in Sources */,
